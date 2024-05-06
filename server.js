@@ -60,6 +60,7 @@ app.use((err, req, res, next) => {
     res.status(500).send('Something broke!')
 })
 
-app.listen(8080, () => {
-    console.log('server is running on port 8080');
+app.listen(3030, () => {
+    console.log('server was running on port 8080');
+    console.log('server is running on port 3030');
 })
